@@ -1,4 +1,4 @@
-//SideNav Styling
+
 mat-sidenav-container {
     height: 100%;
     position: absolute;
@@ -9,7 +9,6 @@ mat-sidenav {
     width: 250px;
 }
 
-//ToolBar Code
 .spacer {
     flex: 1 1 auto;
 }
@@ -40,8 +39,6 @@ a {
     text-align: center;
     margin: 0px;
     z-index: 1;
-    // background-color: rgba(236, 234, 231, 0.767);
-    // border-top-right-radius: 90%/5em 100px 60em 60em;
 }
 
 p {
@@ -68,7 +65,6 @@ table {
 body {
     background-color: #01224fe5;
     z-index: -1;
-    // padding-bottom: 10em;
 }
 
 td {
@@ -78,7 +74,7 @@ td {
 .centertop {
     float: left;
     width: 15em;
-    // margin-left: 8%
+    margin-left: 8%;
     margin: auto;
     position: absolute;
     margin-left: 45%;
@@ -89,7 +85,6 @@ td {
     float: left;
     width: 30%;
     z-index: 1;
-    // width: 40em;
 }
 
 .righttop {
@@ -102,9 +97,6 @@ td {
 .boxCurve {
     width: 100%;
     border-bottom: solid 2px #01224fe5;
-    // margin-top: 0.5em;
     border-radius: 90%/0em 0px 60em 60em;
-    // border-color: #000 transparent transparent transparent;
-    // border-radius: 60%/20em 20em 0 ;
     background-color: white;
 }
