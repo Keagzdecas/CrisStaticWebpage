@@ -1,0 +1,110 @@
+//SideNav Styling
+mat-sidenav-container {
+    height: 100%;
+    position: absolute;
+}
+
+mat-sidenav {
+    background-color: rgb(210, 212, 216);
+    width: 250px;
+}
+
+//ToolBar Code
+.spacer {
+    flex: 1 1 auto;
+}
+
+mat-toolbar {
+    background-color: #01214F;
+}
+
+mat-nav-list {
+    text-align: center;
+    padding: 15px;
+    color: rgba(17, 136, 216, 0.678);
+}
+
+.mat-list-item {
+    position: absolute;
+}
+
+mat-icon {
+    padding: 5px;
+}
+
+a {
+    color: white;
+}
+
+.container {
+    text-align: center;
+    margin: 0px;
+    z-index: 1;
+    // background-color: rgba(236, 234, 231, 0.767);
+    // border-top-right-radius: 90%/5em 100px 60em 60em;
+}
+
+p {
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    z-index: 1;
+}
+
+h1 {
+    color: white;
+    z-index: 1;
+}
+
+table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+
+body {
+    background-color: #01224fe5;
+    z-index: -1;
+    // padding-bottom: 10em;
+}
+
+td {
+    color: white;
+}
+
+.centertop {
+    float: left;
+    width: 15em;
+    // margin-left: 8%
+    margin: auto;
+    position: absolute;
+    margin-left: 45%;
+    z-index: 1;
+}
+
+.lefttop {
+    float: left;
+    width: 30%;
+    z-index: 1;
+    // width: 40em;
+}
+
+.righttop {
+    margin-top: 1em;
+    float: right;
+    width: 30%;
+    z-index: 1;
+}
+
+.boxCurve {
+    width: 100%;
+    border-bottom: solid 2px #01224fe5;
+    // margin-top: 0.5em;
+    border-radius: 90%/0em 0px 60em 60em;
+    // border-color: #000 transparent transparent transparent;
+    // border-radius: 60%/20em 20em 0 ;
+    background-color: white;
+}
